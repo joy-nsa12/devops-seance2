@@ -9,6 +9,10 @@ app.get('/',(_req,res) => {
     res.send('Hello TypeScript + Express!');
 });
 
+app.get ('/joy', (_req, res) => {
+    res.send('Coucou, ici Joy');
+});
+
 app.listen(port, () => {
     console.log(`Serveur lancé sur http://localhost:${port} `);
 });
